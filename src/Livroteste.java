@@ -8,7 +8,9 @@ public class Livroteste {
        meuLivro.autor = "Neil Strauss";
 
        meuLivro.aplicarDesconto(0.2);
+       meuLivro.acrescentarTaxa();
        meuLivro.exibirDados();
+
 
        Livro livroFavorito = new Livro();
        livroFavorito.nome = "A arte da Guerra";
