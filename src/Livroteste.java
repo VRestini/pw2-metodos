@@ -7,6 +7,7 @@ public class Livroteste {
        meuLivro.resumo = "Técnicas de sedução";
        meuLivro.autor = "Neil Strauss";
 
+       meuLivro.aplicarDesconto(0.2);
        meuLivro.exibirDados();
 
        Livro livroFavorito = new Livro();
@@ -15,7 +16,7 @@ public class Livroteste {
        livroFavorito.preco = 39.90;
        livroFavorito.resumo = "Guerra";
        livroFavorito.autor="Sun Tzu";
-
-      livroFavorito.exibirDados();
+       meuLivro.aplicarDesconto(0.1);
+       livroFavorito.exibirDados();
     }
 }
